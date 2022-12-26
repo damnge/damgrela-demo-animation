@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi, I am Dam! Web Designer & Front-end Developer.
+    I design and code beautiful websites for clients around the world. Feel free to roam around, and if you need a powerful website for yourself or your business, shoot me an email.">
+    <meta name="keywords" content="Portfolio, Web Design, Front-end, Web Developer, UX, UI, Design, Web App, Mobile App">
+    <meta name="author" content="Damian Grela">
+    <meta property="og:title" content="Dam Grela - Web Designer" />
+    <meta property="og:description" content="Hi, I am Dam! Web Designer & Front-end Developer.
+    I design and code beautiful websites for clients around the world. Feel free to roam around, and if you need a powerful website for yourself or your business, shoot me an email."/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/damnge/damgrela-demo/master/og.jpg"/>
+    <title>Dam Grela - Web Designer</title>
+    <link rel="icon" type="image/png" href="dg.png">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/c5eb38d5ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="loader" id="spinner">
+        <svg id="logoload" width="152" height="151" viewBox="0 0 152 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M136.484 149.574L1 149.574L1 14.0898L136.484 149.574Z" stroke="#333333" stroke-width="2"/>
+            <path d="M151 1.0005L15.5161 1.0005L151 136.484V49.3333H109.766" stroke="#333333" stroke-width="2"/>
+            </svg>
+    </div>
+    <nav id="nav-bar"> 
+        <div class="container">
+            <div class="logo" id="logo" onclick="rotate()">
+                <div id="f-that-logo" class="animated-logo">
+                <a href="index" id="logo-link"><img id="sign" src="img/dgh.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="nav-menu animated" id="element-to-animate8">
+                <button class="portfolio link under"><a href="#project-one">PORTFOLIO</a></button>
+                <div class="button-wrapper">
+                <div class="button">
+                   <a id="myEmailTop" href="mailto:dam.grela@gmail.com" onclick="ShowSecond()">Say Hello.</a>
+                    <svg>
+                    <polyline class="o1" points="0 0, 130 0, 130 35, 0 35, 0 0"></polyline>
+                    <polyline class="o2" points="0 0, 130 0, 130 35, 0 35, 0 0"></polyline>
+                </svg>
+                <div class="hide" id="show-email">Email Copied</div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <input class="check" id="burger" type="checkbox" />
+                <label id="burger" for="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <nav>    
+                <ul>
+                    <li><a href="#project1"><label id="burger" for="burger" onclick='window.location = "#project-one";'>PORTFOLIO</label></a></li>
+                    <li style="max-height: 80px;">
+                        <a id="myEmailMob" href="mailto:dam.grela@gmail.com" onclick="ShowMobile()">SAY HELLO.</a>
+                        <a href="#" class="hide" id="email-mobile">EMAIL COPIED</a>
+                    </li>
+                    <li class="mob-link">
+                        <a href="https://www.linkedin.com/in/damian-grela-2405a31b8/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/damnge" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://codepen.io/damgrela" target="_blank"><i class="fab fa-codepen"></i></a>
+                </li>
+                </ul>
+                </label>  
+                </nav>
+    </nav>
+    <section id="hero-section">
+        <div id="gothere" class="hero-container" loading="lazy">
+            <div class="container"> 
+                <div class="headline-container">
+                <div>  
+                <h1 id="element-to-animate1" class="main-h animated"> Hi, I am Dam</h1>
+                <h2 id="element-to-animate2" class="sub-title animated"><span class="ux">Web</span> Designer &</h2>
+                <h2 id="element-to-animate3"class="sub-title animated">Front-end Developer</h2>
+                </div>
+                <div id="element-to-animate4" class="animated">
+                <div id="element-to-animate9"class="divider-headline"></div>
+                </div>
+                </div>
+                <p id="element-to-animate5" class="my-description animated">I design and code beautiful websites for clients around the world. Feel free to roam around, and if you need a powerful website for yourself or your business, shoot me an email.</p>
+                <div class="down"><div class="main-btn-wrapper animated" id="element-to-animate6"><a href="#project-one" class="main-btn btn-effect" data-sm-link-text="Let's go"><span>SEE MY WORK</span></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </section>
+    <section id="page-section">
+        <div class="container">
+        <div class="divider"></div>
+        <!-- PROJECT 1 -->
+        <div class="project observer-play" id="project-one">
+            <div class="left-block">
+                <h4>website</h4>
+                <h1>Tony Snufkin</h1>
+                <div class="divider"></div>
+            </div>
+             <div class="paragraph-action">
+                    <p>Photography portfolio website created for artist Tony Snufkin. The website is built from scratch. The main idea was to keep it minimalistic, with a clean content structure and simple interactions, so visitors can pay full attention to the art.</p>
+                    <div class="btn-container">
+                        <a href="tonysnufkin"><button class="button-project2 button-slide"><span><span>See this project</span></span></button></a>
+                    </div>
+                </div>
+                <a href="tonysnufkin" class="right-block inline">
+                    <img src="img/tonys-min.jpg" alt="Photography Portfolio Website" loading="lazy">
+                </a>
+        </div>
+    <!-- PROJECT 2 -->
+        <div class="project observer-play">
+            <div class="left-block">
+                <h4>Mobile App</h4>
+                <h1>Wantis App</h1>
+                <div class="divider shorter"></div>
+            </div>
+             <div class="paragraph-action">
+                    <p>This is a shopping application design for the concept project Wantis. The whole process involved: sketching UX flows, sitemaps, wireframing, prototyping, and designing a logo.</p>
+                    <div class="btn-container">
+                        <a href="wantis"><button class="button-project2 button-slide"><span><span>See this project</span></span></button></a>
+                    </div>
+                </div>
+                <a href="wantis" class="right-block inline">
+                    <div class="phone-frame">
+                    <img class="wantis" src="img/wantiscrop.gif" alt="Wantis Shopping App" loading="lazy">
+                    </div>
+                    <img src="img/wantisl-min.jpg" id="wantis-splash" alt="Wantis Shopping App" loading="lazy">
+                </a>
+            </div>
+    <!-- PROJECT 3 -->
+        <div class="project observer-play">
+            <div class="left-block">
+                <h4>Web App</h4>
+                <h1>NASA - Space</h1>
+                <div class="divider shorter"></div>
+            </div>
+             <div class="paragraph-action">
+                    <p>This is a web app using NASA's API that shows an astronomic picture of the day with an article. Save in Local Storage is built inside the website, so you can save your favorites photos and articles. If you want to see similar JavaScript projects, check out my GitHub.</p>
+                    <div class="btn-container">
+                        <a href="space"><button class="button-project2 button-slide"><span><span>See this project</span></span></button></a>
+                    </div>
+                </div>
+                <a href="space" class="right-block inline">
+                    <img src="img/spaces-min.jpg" alt="Nasa APOD project" loading="lazy">
+                </a>
+        </div>
+    <!-- PROJECT 4 -->
+        <div class="project observer-play">
+            <div class="left-block">
+                <h4>website</h4>
+                <h1>Unite App</h1>
+                <div class="divider shorter"></div>
+            </div>
+             <div class="paragraph-action">
+                    <p>This is a full website made for a concept team collaboration platform. It includes a well-designed website and beautiful blog. The website and the blog were built in Webflow, which has amazing and simple CMS for blog hosting.</p>
+                    <div class="btn-container">
+                        <a href="unite"><button class="button-project2 button-slide"><span><span>See this project</span></span></button></a>
+                    </div>
+                </div>
+                <a href="unite" class="right-block inline">
+                    <img src="img/unite-min.jpg" alt="Unite platform website" loading="lazy">
+                </a>
+        </div>
+        <div class="divider"></div>
+    </div>
+</section>
+    <section id="page-section">
+        <div class="container observer-play">
+            <h1 class="do-title observer-play"> I am specialised in</h1>
+            <div class="fade-divider observer-play">
+            <div class="divider-headline shine short-center"></div> 
+            </div>
+            <div class="skill-box observer-play">
+                <div class="skill-column">
+                    <div class="icon-wrapper"><img src="img/design.svg" alt="" loading="lazy"></div>
+                    <div class="skill-description">
+                        <h4 class="skill-tittle">Design</h4>
+                        <p>It can be a logo, a website, or a mobile app. In design, I value simple content structure with a minimalistic touch and thoughtful interactions. My clients always receive products with an amazing user experience.</p>
+                    </div>
+                </div>
+                <div class="skill-column">
+                    <div class="icon-wrapper"><img class="code-icon" src="img/code.svg" alt="" loading="lazy"></div>
+                    <div class="skill-description">
+                        <h4>Front-end</h4>
+                        <p>Thanks to my knowledge of HTML, CSS, and JavaScript, I can code things from scratch and bring your website to life. Websites are fully responsive and interactive with a clean semantic code. I can also create products using website builders like Webflow.</p>
+                    </div>
+                </div>
+                <div class="skill-column">
+                    <div class="icon-wrapper"> <img src="img/art.svg" alt="" style="margin-top: 5px;" loading="lazy"></div>
+                    <div class="skill-description">
+                        <h4>Visual Art</h4>
+                        <p>Years of experience in the photography industry have trained my eye for detail. With knowledge of Adobe programs and other tools like Figma, I can create art that will make your website look outstanding.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divider skill-divider"></div>
+        </div>
+    </section>
+    <footer id="call-to-action">
+       <div class="container center">
+            <h1 class="footer-title observer-play">Want to create?</h1>
+            <div class="fade-divider observer-play">
+            <div class="divider-headline shine short-center"></div>
+            </div>
+            <div class="second-footer observer-play">
+            <p>If you are interested in working together, let's chat to set the ball rolling. Don't worry, the coffee is on me. If we are a good fit, I will give you a time and cost estimate.</p>
+           <div class="tooltip">
+            <a id="myEmailBot" class="main-btn btn-effect" data-sm-link-text="Let's talk" href="mailto:dam.grela@gmail.com" onmouseout="outFunc()"><span>say hello.</span></a>
+            <span class="tooltiptext" id="myTooltip">copy to clipboard</span>
+            </div>
+            <div class="links observer-play">
+                <a target="_blank" href="https://www.linkedin.com/in/damian-grela-2405a31b8/"><i class="fab fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://github.com/damnge"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://codepen.io/damgrela"><i class="fab fa-codepen"></i></a>
+            </div>
+            <div class="copyright">© Copyright – Damian Grela</div>
+        </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

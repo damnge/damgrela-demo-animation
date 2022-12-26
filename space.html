@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi, I am Dam! Web Designer & Front-end Developer.
+    I design and code beautiful websites for clients around the world. Feel free to roam around, and if you need a powerful website for yourself or your business, shoot me an email.">
+    <meta name="keywords" content="Portfolio, Web Design, Front-end, Web Developer, UX, UI, Design, Web App, Mobile App">
+    <meta name="author" content="Damian Grela">
+    <meta property="og:title" content="Dam Grela - Web Designer" />
+    <meta property="og:description" content="Hi, I am Dam! Web Designer & Front-end Developer.
+    I design and code beautiful websites for clients around the world. Feel free to roam around, and if you need a powerful website for yourself or your business, shoot me an email."/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/damnge/damgrela-demo/master/og.jpg"/>
+    <title>Dam Grela - Web Designer</title>
+    <link rel="icon" type="image/png" href="dg.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/project.css">
+    <script src="https://kit.fontawesome.com/c5eb38d5ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="loader" id="spinner">
+        <svg id="logoload" width="152" height="151" viewBox="0 0 152 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M136.484 149.574L1 149.574L1 14.0898L136.484 149.574Z" stroke="#333333" stroke-width="2"/>
+            <path d="M151 1.0005L15.5161 1.0005L151 136.484V49.3333H109.766" stroke="#333333" stroke-width="2"/>
+            </svg>
+    </div>
+    <nav id="nav-bar"> 
+        <div class="container n-container">
+            <div class="logo" id="logo" onclick="rotate()">
+                <a href="index" id="logo-link"><img id="sign" src="img/dgh.svg" alt=""></a>
+            </div>
+            <div class="nav-menu" id="animate-nav">
+                <button class="portfolio link under"><a href="index">PORTFOLIO</a></button>
+                <div class="button-wrapper">
+                <div class="button">
+                   <a id="myEmailTop" href="mailto:dam.grela@gmail.com"  onclick="ShowSecond()">Say Hello.</a>
+                    <svg>
+                    <polyline class="o1" points="0 0, 130 0, 130 35, 0 35, 0 0"></polyline>
+                    <polyline class="o2" points="0 0, 130 0, 130 35, 0 35, 0 0"></polyline>
+                </svg>
+                <div class="hide" id="show-email">Email Copied</div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <input class="check" id="burger" type="checkbox" />
+                <label id="burger" for="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <nav>    
+                <ul>
+                    <li><a href="index">PORTFOLIO</a></li>
+                    <li style="max-height: 83px;">
+                        <a id="myEmailMob" href="mailto:dam.grela@gmail.com" onclick="ShowMobile()">SAY HELLO.</a>
+                        <a href="#" class="hide" id="email-mobile">EMAIL COPIED</a>
+                    </li>
+                    <li class="mob-link">
+                        <a href="https://www.linkedin.com/in/damian-grela-2405a31b8/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/damnge"><i class="fab fa-github"></i></a>
+                    <a href="https://codepen.io/damgrela"><i class="fab fa-codepen"></i></a>
+                </li>
+                </ul>
+                </label>  
+                </nav>
+            </nav>
+    <header id="hero-section">
+       <div class="header-container">
+           <div class="container center">
+               <h4 id="animate-this1" class="animated">Work Showcase</h4>
+               <h1 id="animate-this2" class="main-title animated">NASA - Space</h1>
+               <div id="animate-this5" class="animated">
+               <div class="divider-project shine"></div> 
+               </div>
+               <p id="header-description" class="animated">
+                This is a web app using NASA's API that shows an astronomic picture of the day with an article. Save in Local Storage is built inside the website, so you can save your favorites photos and articles. If you want to see similar JavaScript projects, check out my GitHub.
+               </p>
+               <div id="animate-this4" class="main-btn-wrapper live-btn animated">
+               <a href="https://space-apod.netlify.app/" target="_blank" class="main-btn btn-effect fade" data-sm-link-text="Let's go"><span>Live Website</span></a>
+            </div>
+           </div>
+       </div>
+    </header>
+<section id="page-section">
+    <div class="photo-container">
+        <img class="screenshot observer-play" src="mockups/nasa-min.jpg" alt="Nasa APOD project" loading="lazy">
+    </div>
+        <div class="container">
+        <div class="divider skill-divider"></div>
+        </div>
+    </section>
+        <footer id="call-to-action">
+            <div class="container center">
+                <h1 class="footer-title observer-play">Want to create?</h1>
+                <div class="fade-divider observer-play">
+                <div class="divider-headline shine short-center"></div>
+                </div>
+                <div class="second-footer observer-play">
+                <p>If you are interested in working together, let's chat to set the ball rolling. Don't worry, the coffee is on me. If we are a good fit, I will give you a time and cost estimate.</p>
+               <div class="tooltip">
+                <a id="myEmailBot" class="main-btn btn-effect" data-sm-link-text="Let's talk" href="mailto:dam.grela@gmail.com" onmouseout="outFunc()"><span>say hello.</span></a>
+                <span class="tooltiptext" id="myTooltip">copy to clipboard</span>
+                </div>
+                <div class="links observer-play">
+                    <a target="_blank" href="https://www.linkedin.com/in/damian-grela-2405a31b8/"><i class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://github.com/damnge"><i class="fab fa-github"></i></a>
+                    <a target="_blank"href="https://codepen.io/damgrela"><i class="fab fa-codepen"></i></a>
+                </div>
+                <div class="copyright">© Copyright – Damian Grela</div>
+            </div>
+            </div>
+        </footer>
+<script src="scriptspace.js"></script>
+</body>
+</html>
